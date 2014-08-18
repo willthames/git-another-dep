@@ -1,0 +1,4 @@
+---
+# tasks file for git-another-dep
+- name: this dependency was installed from a dict in a dependencies file
+  debug: msg="Installed dependency using yaml dict specification"
